@@ -14,10 +14,6 @@ class QuillSpider(scrapy.Spider):
         super(QuillSpider, self).__init__()
         pass
 
-    # def start_requests(self):
-    #     url = self.start_urls[0]
-    #     yield scrapy.Request(url, callback=self.parse)
-
     def parse(self, response):
         items = response.css('div#ResultsSection div.BrowseItem')
         for item in items:
