@@ -16,7 +16,7 @@ class InvestingSpider(scrapy.Spider):
         options.add_argument('headless')
         options.add_argument('window-size=1200x600')
 
-        web_driver_path = os.path.join(basedir, 'chromedriver')
+        web_driver_path = os.path.join(basedir, 'chromedriver.exe')
         driver = webdriver.Chrome(web_driver_path, chrome_options=options)
         driver.get('https://www.investing.com/analysis/forex')
 
