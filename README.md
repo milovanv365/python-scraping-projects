@@ -1,7 +1,7 @@
 # Simple Python Scraping Project
 
 ## What is the use of this Repo
-This Project is a Simple ReactJS Project which demonstrates the following
+This Project demonstrates the following
 
 1. Using Scrapy and Selenium
 2. Using middleware and items of Scrapy
